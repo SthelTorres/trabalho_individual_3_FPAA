@@ -1,0 +1,6 @@
+DIRECTED=0
+V= A B C D
+A B
+B C
+C D
+A D
