@@ -182,11 +182,13 @@ python view.py --input grafo.txt --directed
 
 ### O que o programa faz
 O programa:
-1- Desenha o grafo original com todos os nós e arestas.
-2- Destaca em vermelho as arestas que compõem o Caminho Hamiltoniano encontrado.
-3- Exporta automaticamente uma imagem PNG para a pasta assets/.
-* O arquivo gerado por padrão é assets/hamiltoniano.png.
-* É possível alterar o nome com a opção --output.
+
+1. Desenha o grafo original com todos os nós e arestas.  
+2. Destaca em vermelho as arestas que compõem o Caminho Hamiltoniano encontrado.  
+3. Exporta automaticamente uma imagem PNG para a pasta `assets/`.  
+   - O arquivo gerado por padrão é `assets/hamiltoniano.png`.  
+   - É possível alterar o nome com a opção `--output`.  
+
 
 O grafo é exibido com todos os vértices, e o Caminho Hamiltoniano aparece em vermelho, destacado das demais arestas.
 
@@ -199,5 +201,8 @@ Imagem gerada em: assets/hamiltoniano.png
 ```
 a imagem do grafo vai para a pasta /assets e é gerado um cache na pasta /_ pycache _
 
-
 ---
+
+### Imagem Exemplo:
+
+ <img src="https://github.com/SthelTorres/trabalho_individual_3_FPAA/blob/main/FotoExemplo/GrafoExTrabalho3.png?raw=true" alt="Exemplo de Caminho Hamiltoniano" width="600"/> 
