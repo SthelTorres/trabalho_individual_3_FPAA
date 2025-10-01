@@ -23,12 +23,15 @@ O grafo deve ser descrito em um arquivo `.txt` no seguinte formato:
 - Linhas em branco ou iniciadas com `#` são ignoradas.  
 
 ### Exemplo (`grafo.txt`)
+```txt
 DIRECTED=0
 V= A B C D
 A B
 B C
 C D
 A D
+```
+
 
 ---
 
